@@ -1,0 +1,53 @@
+@media only screen and (max-width: 420px){
+    /* Nav */
+    .menu{
+        display: none;
+    }
+    .menu-drop{
+        display: inline;
+        position: absolute;
+        right: 20px;
+        top: 50%;
+        transform: translate(-50%, -50%);
+    }
+    
+    .logo{
+        width: 50%;
+        left: 50%;
+        transform: translate(-50%);
+    }
+
+    /* Main */
+    .re_rectangle{
+        display: none;
+    }
+    .text-container{
+        top: 3%;
+    }
+    .text-container h1{
+        font-size: 2rem;
+    }
+
+    h2{
+        top: 90vh;
+        left: 70px;
+        transform: none;
+        display: none;
+    }
+
+    /* Services-container */
+    .services-container{
+        left: 70px;
+        display: flex;
+        flex-direction: column;
+        bottom: 13vh;
+        justify-content: space-evenly;
+        align-items: flex-start;
+        height: 50%;
+        width: 100%;
+    }
+    ._container{
+        width: 60%;
+        height: 30%;
+    }
+}

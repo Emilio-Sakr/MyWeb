@@ -1,0 +1,44 @@
+/* Global settings */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: black;
+    cursor: default;
+    
+}
+
+
+/* Utility classes */
+
+/* Buttons */
+
+.buttonA{
+    transition: background-color .5s, transform .5s, color .5s, border .5s, opacity .5s, ease .5s;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.buttonA:hover{
+    transform: scale(1.1);
+    background-color: #84DE7F;
+    color: black;
+    border: 1px solid black;
+}
+.buttonA:active{
+    opacity: 0%;
+}
+.buttonB{
+    background-color: var(--color_4);
+    border: none;
+    text-decoration: black;
+    margin: 5px;
+    padding: 2px;
+    letter-spacing: 1.5px;
+    cursor: pointer;
+    transition: background-color .5s, ease .5s;
+}
+.buttonB:hover{
+    background-color: white;
+}
